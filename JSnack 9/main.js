@@ -23,6 +23,6 @@ for (let i = 1; i <= counter; i++) {
   console.log("La somma totale è", sum);
 
   // Calcolo la media dei primi 10 numeri
-  const averageNumber = sum / counter;
+  const averageNumber = sum / i;
   console.log("La media dei numeri inseriti è", averageNumber);
 }
