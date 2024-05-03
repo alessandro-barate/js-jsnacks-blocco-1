@@ -1,15 +1,18 @@
 "use strict";
 
-const firstWord = prompt("Inserisci la prima parola").length;
-const secondWord = prompt("Inserisci la seconda parola").length;
+const firstWord = prompt("Inserisci la prima parola");
+const secondWord = prompt("Inserisci la seconda parola");
+
+const firstWordLenght = firstWord.length;
+const secondWordLenght = secondWord.length;
 
 console.log(firstWord);
 console.log(secondWord);
 
-if (firstWord < secondWord) {
-  console.log("La seconda parola è più lunga");
-} else if (firstWord > secondWord) {
-  console.log("La prima parola è più lunga");
+if (firstWordLenght < secondWordLenght) {
+  console.log(secondWord, firstWord);
+} else if (firstWordLenght > secondWordLenght) {
+  console.log(firstWord, secondWord);
 } else {
   console.log("Le due parole sono lunghe uguali");
 }
