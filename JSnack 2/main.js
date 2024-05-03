@@ -16,3 +16,5 @@ if (firstWordLenght < secondWordLenght) {
 } else {
   console.log("Le due parole sono lunghe uguali");
 }
+
+// Per evitare di scrivere le due variabili -----.lenght, posso cancellarle e mettere il metodo .lenght nelle varie condizioni
