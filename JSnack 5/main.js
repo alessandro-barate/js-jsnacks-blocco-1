@@ -4,6 +4,8 @@
     Se è dispari inseriscilo nell’array.
     Stampa in console l'array risultante.      */
 
+"use strict";
+
 // Dichiaro l'array
 const userNumbers = [];
 
