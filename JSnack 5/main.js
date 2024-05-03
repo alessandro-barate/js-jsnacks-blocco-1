@@ -17,6 +17,7 @@ for (let i = 0; i < count; i++) {
   );
   console.log(i);
 
+  // Condizione per verificare se il numero è dispari, se lo è lo inserisco nell'array e stampo quest'ultimo in console
   if (userInput % 2 !== 0) {
     userNumbers.push(userInput);
     console.log(userNumbers);
