@@ -8,4 +8,4 @@ Creo due variabili per i due prompt
 
 Di queste due variabili devo prendere la lunghezza --> .lenght
 
-confronto lettera per lettera quante ce ne sono nelle due parole.
+confronto le lunghezze delle due parole.
