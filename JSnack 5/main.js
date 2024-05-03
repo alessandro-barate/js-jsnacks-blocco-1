@@ -12,18 +12,13 @@ const count = 6;
 
 // Dichiaro il ciclo for
 for (let i = 0; i < count; i++) {
-  userNumbers[i] = parseInt(
+  const userInput = parseInt(
     prompt(`${i + 1} di ${count} - Inserisci un numero`)
   );
   console.log(i);
 
-  if (userNumbers % 2 === false) {
+  if (userInput % 2 !== 0) {
     userNumbers.push(userInput);
+    console.log(userNumbers);
   }
 }
-
-console.log(userNumbers);
-
-//if numero % 2 --> .push nell'array
-
-//console.log(userInput);
