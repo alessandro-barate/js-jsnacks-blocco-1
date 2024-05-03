@@ -4,11 +4,6 @@ Stampa i risultati in console   */
 
 "use strict";
 
-/* Creo una variabile che all'inizio è a 0
-Creo un contatore che conti fino a 10
-Incremento la variabile con i numeri generati = faccio la somma
-Divido la somma per il numero dei cicli */
-
 // Variabile di inzio della somma e di quanti cicli deve fare il for
 let sum = 0;
 const counter = 10;
