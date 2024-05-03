@@ -15,11 +15,11 @@ for (let i = 0; i < count; i++) {
   const userInput = parseInt(
     prompt(`${i + 1} di ${count} - Inserisci un numero`)
   );
-  console.log(i);
+  console.log("L'utente ha inserito ", userInput);
 
   // Condizione per verificare se il numero è dispari, se lo è lo inserisco nell'array e stampo quest'ultimo in console
   if (userInput % 2 !== 0) {
     userNumbers.push(userInput);
-    console.log(userNumbers);
   }
+  console.log(userNumbers);
 }
