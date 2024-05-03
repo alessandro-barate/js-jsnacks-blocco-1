@@ -6,4 +6,6 @@ Creo due variabili per i due prompt
 - const firstWord = prompt('Inserisci una parola');
 - const secondWord = prompt('Inserisci un'altra parola');
 
-confronto lettera per lettera quante ce ne sono nelle due parole, se la prima ne ha di più è la più lunga.
+Di queste due variabili devo prendere la lunghezza --> .lenght
+
+confronto lettera per lettera quante ce ne sono nelle due parole.
