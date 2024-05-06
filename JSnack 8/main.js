@@ -22,3 +22,5 @@ while (userNumber > 0) {
 
 // Stampo in console la somma delle cifre
 console.log(digitSum);
+
+/* Aggiungere controllo sulla lunghezza del numero */
