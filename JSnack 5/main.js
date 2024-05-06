@@ -19,9 +19,17 @@ for (let i = 0; i < count; i++) {
   );
   console.log("L'utente ha inserito ", userInput);
 
-  // Condizione per verificare se il numero è dispari, se lo è lo inserisco nell'array e stampo quest'ultimo in console
-  if (userInput % 2 !== 0) {
-    userNumbers.push(userInput);
+  // Aggiugnere il controllo per vedere se è numero
+  if (!isNaN(userInput)) {
+    // Condizione per verificare se il numero è dispari, se lo è lo inserisco
+    // nell'array e stampo quest'ultimo in console
+    if (userInput % 2 !== 0) {
+      userNumbers.push(userInput);
+    }
+    console.log(userNumbers);
   }
-  console.log(userNumbers);
+
+  //else {
+  //non sono un numero, chiedo di reinserire un numero nella stessa posizione del
+  //1 su 6, 2 su 6... con i--
 }
